@@ -6,7 +6,6 @@ score2 = 0
 
 for line in lines:
     o, p = line.split()
-    print(type((o, p)))
     score += {"X": 1, "Y": 2, "Z": 3}[p]
     score += {
         ("A", "X"): 3,
