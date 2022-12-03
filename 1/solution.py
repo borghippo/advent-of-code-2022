@@ -10,12 +10,10 @@ for line in lines:
         elves.append(currElfCal)
         currElfCal = 0
 
-# part 1 solution
 print(max(elves))
 
 elves.sort()
 
 totalElves = len(elves)
 
-# part 2 solution
 print(sum(elves[totalElves - 3 : totalElves]))
